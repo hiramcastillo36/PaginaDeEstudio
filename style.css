@@ -10,3 +10,17 @@ h1 {
     background-color: black;
     margin: 5px;
 }
+
+a.navlink{
+    color: blue;
+    border: #ff2a6f solid 2px;
+}
+
+a.navfis{
+    color: blue;
+    border: #ff2a6f solid 2px;
+}
+a.navquim{
+    color: blue;
+    border: #ff2a6f solid 2px;
+}
