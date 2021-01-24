@@ -8,7 +8,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 15%;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes myanimation{
+    0% {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 35%;
+    }
+    100% {display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;margin-top: 0%;}
 }
 
 .bienvenida{
@@ -16,10 +31,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 0%;
-}
-
-.ajustar:hover .eskeler{
-    transform: translateY(100%);
 }
 
 p {
