@@ -21,9 +21,11 @@
         justify-content: space-around;
         margin-top: 35%;
     }
-    100% {display: flex;
+    100% {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;margin-top: 0%;}
+        justify-content: space-around;margin-top: 0%;
+    }
 }
 
 .bienvenida{
@@ -40,9 +42,9 @@
 
 .image {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 p {
